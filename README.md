@@ -1,4 +1,4 @@
-# HugChat Project
+# HugChat Project in Command Line
 
 This project utilizes the `hugchat` library to interact with the Meta LLaMA chatbot.
 
