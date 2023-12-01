@@ -28,6 +28,7 @@ Parameters:
 - `email`: Hugging Face account email
 - `password`: Hugging Face account password
 - `stream`: if `True`, returns the chatbot's response as a progressive text stream. If `False`, returns the chatbot's response as a string.
+- `web`: if True, searches the internet for more comprehensive and up-to-date answers. If False, does not search the internet.
 
 ## Execution
 
