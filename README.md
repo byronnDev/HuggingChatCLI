@@ -1,41 +1,39 @@
-# Proyecto HugChat
+# HugChat Project
 
-Este proyecto utiliza la biblioteca `hugchat` para interactuar con el chatbot LLaMA de Meta.
-
+This project utilizes the `hugchat` library to interact with the Meta LLaMA chatbot.
 
 ![image](https://github.com/byronnDev/HuggingChatCLI/assets/38868773/e02d1973-aaad-4921-8f63-42f9e1b0ab85)
 
+## Configuration
 
-## Configuración
-
-El proyecto requiere un archivo `.env` en el directorio raíz con las siguientes variables de entorno:
+The project requires a `.env` file in the root directory with the following environment variables:
 
 ```
-EMAIL="tu_email"
-PASS="tu_contraseña"
+EMAIL="your_email"
+PASS="your_password"
 ```
 
-Estas credenciales son utilizadas para iniciar sesión en el chatbot, a través de tu cuenta de [Hugging Face](https://huggingface.co/).
+These credentials are used to log in to the chatbot through your [Hugging Face](https://huggingface.co/) account.
 
-Puedes probarlo desde la web de [Hugging Face](https://huggingface.co/), o ejecutarlo en tu entorno local a través de éste repositorio.
+You can test it from the [Hugging Face](https://huggingface.co/) website or run it locally through this repository.
 
-## Uso
+## Usage
 
-El script principal es `hugchat.py`. Define una función `generate_response` que toma un mensaje de entrada y devuelve una respuesta del chatbot.
+The main script is `hugchat.py`. It defines a `generate_response` function that takes an input message and returns a chatbot response.
 
-La función `generate_response` inicia sesión en el chatbot, crea una nueva conversación, y envía el mensaje de entrada al chatbot. Luego recoge y devuelve la respuesta del chatbot.
+The `generate_response` function logs into the chatbot, creates a new conversation, and sends the input message to the chatbot. It then retrieves and returns the chatbot's response.
 
-Parámetros:
-- `prompt`: mensaje de entrada
-- `email`: email de la cuenta de Hugging Face
-- `password`: contraseña de la cuenta de Hugging Face
-- `stream`: si es `True`, devuelve la respuesta del chatbot como un stream de texto progresivo. Si es `False`, devuelve la respuesta del chatbot como un string.
+Parameters:
+- `prompt`: input message
+- `email`: Hugging Face account email
+- `password`: Hugging Face account password
+- `stream`: if `True`, returns the chatbot's response as a progressive text stream. If `False`, returns the chatbot's response as a string.
 
-## Ejecución
+## Execution
 
-Para ejecutar el script si usas Windows, puedes ejecutar el archivo `run.bat`.
+To run the script on Windows, you can execute the `run.bat` file.
 
-Si usas Linux, puedes ejecutar el archivo `run.sh`:
+If you're using Linux, you can execute the `run.sh` file:
 
 ```bash
 chmod +x run.sh
