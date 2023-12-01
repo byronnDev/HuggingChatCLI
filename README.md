@@ -2,6 +2,10 @@
 
 Este proyecto utiliza la biblioteca `hugchat` para interactuar con el chatbot LLaMA de Meta.
 
+
+![image](https://github.com/byronnDev/HuggingChatCLI/assets/38868773/e02d1973-aaad-4921-8f63-42f9e1b0ab85)
+
+
 ## Configuración
 
 El proyecto requiere un archivo `.env` en el directorio raíz con las siguientes variables de entorno:
