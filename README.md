@@ -1,5 +1,3 @@
-
-```markdown
 # Proyecto HugChat
 
 Este proyecto utiliza la biblioteca `hugchat` para interactuar con el chatbot LLaMA de Meta.
