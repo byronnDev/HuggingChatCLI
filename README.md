@@ -15,7 +15,7 @@ PASS="your_password"
 
 These credentials are used to log in to the chatbot through your [Hugging Face](https://huggingface.co/) account.
 
-You can test it from the [Hugging Face](https://huggingface.co/) website or run it locally through this repository.
+You can test it from the [Hugging Chat](https://huggingface.co/chat/) website or run it locally through this repository.
 
 ## Usage
 
